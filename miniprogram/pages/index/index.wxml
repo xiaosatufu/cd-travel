@@ -1,0 +1,11 @@
+<!-- <view class='container'> -->
+<cu-custom bgColor="bg-gradual-blue" isBack="{{false}}">
+  <view slot="backText">返回</view>
+  <view slot="content">Meet</view>
+</cu-custom>
+<view class="dd">
+  <block wx:for="{{10}}">
+    <cu-card />
+  </block>
+</view>
+<!-- </view> -->
