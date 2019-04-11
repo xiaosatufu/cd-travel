@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "cu-card": "/colorui/components/card/card"
+    "about": "/pages/about/home/home"
   }
 }

@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/apartment-list/index",
+    "pages/about/home/home",
+    "pages/apartment-detail/index",
+    "pages/article-detail/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -15,14 +19,27 @@
     "cu-custom": "/colorui/components/cu-custom/index"
   },
   "tabBar": {
+    "selectedColor": "#0081ff",
+    "backgroundColor": "#fff",
+    "color": "#000",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "攻略",
+        "iconPath": "/images/tabbar/article.png",
+        "selectedIconPath": "/images/tabbar/article-cur.png"
       },
       {
-        "pagePath": "pages/index/index",
-        "text": "关于"
+        "pagePath": "pages/apartment-list/index",
+        "text": "遇见",
+        "iconPath": "/images/tabbar/meet.png",
+        "selectedIconPath": "/images/tabbar/meet-cur.png"
+      },
+      {
+        "pagePath": "pages/about/home/home",
+        "text": "关于",
+        "iconPath": "/images/tabbar/about.png",
+        "selectedIconPath": "/images/tabbar/about-cur.png"
       }
     ]
   }
