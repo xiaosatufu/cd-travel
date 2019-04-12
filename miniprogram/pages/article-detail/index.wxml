@@ -4,3 +4,7 @@
   <view slot="content">文章</view>
 </cu-custom>
 <text>miniprogram/pages/article-detail/index.wxml</text>
+<view wx:for="{{data}}">
+<text>{{item.describe}}</text>
+<image src="{{item.image_href}}"></image>
+</view>
